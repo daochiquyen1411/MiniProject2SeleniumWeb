@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-27T21:09:22 ICT" name="Default suite" finished-at="2021-09-27T21:09:43 ICT" duration-ms="20988">
+    <groups>
+    </groups>
+    <test started-at="2021-09-27T21:09:22 ICT" name="Default test" finished-at="2021-09-27T21:09:43 ICT" duration-ms="20988">
+      <class name="Test.Testing">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.Testing@4d0f2471]" started-at="2021-09-27T21:09:22 ICT" name="setUp" finished-at="2021-09-27T21:09:26 ICT" duration-ms="3587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Testing(java.lang.String,java.lang.String)[pri:0, instance:Test.Testing@4d0f2471]" started-at="2021-09-27T21:09:26 ICT" name="Testing" data-provider="jsonLoginUser" finished-at="2021-09-27T21:09:29 ICT" duration-ms="2563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.Testing@4d0f2471]" started-at="2021-09-27T21:09:29 ICT" name="tearDown" finished-at="2021-09-27T21:09:29 ICT" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.Testing@4d0f2471]" started-at="2021-09-27T21:09:29 ICT" name="setUp" finished-at="2021-09-27T21:09:31 ICT" duration-ms="1928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Testing(java.lang.String,java.lang.String)[pri:0, instance:Test.Testing@4d0f2471]" started-at="2021-09-27T21:09:31 ICT" name="Testing" data-provider="jsonLoginUser" finished-at="2021-09-27T21:09:33 ICT" duration-ms="2509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.Testing@4d0f2471]" started-at="2021-09-27T21:09:33 ICT" name="tearDown" finished-at="2021-09-27T21:09:34 ICT" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.Testing@4d0f2471]" started-at="2021-09-27T21:09:34 ICT" name="setUp" finished-at="2021-09-27T21:09:35 ICT" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Testing(java.lang.String,java.lang.String)[pri:0, instance:Test.Testing@4d0f2471]" started-at="2021-09-27T21:09:35 ICT" name="Testing" data-provider="jsonLoginUser" finished-at="2021-09-27T21:09:43 ICT" duration-ms="7625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.Testing@4d0f2471]" started-at="2021-09-27T21:09:43 ICT" name="tearDown" finished-at="2021-09-27T21:09:43 ICT" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.Testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
